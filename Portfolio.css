@@ -1,0 +1,126 @@
+@media all and (max-device-width: 220px){
+}
+
+h1 {
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  font-size: 8vw;
+  letter-spacing: 3pt;
+  color: #ade2ff;
+  margin-top: 108px;
+}
+
+h2 {
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  font-size: 45pt;
+  letter-spacing: 2.5pt;
+  color: #ef629f;
+}
+
+h2#hello {
+  margin-top: 60px;
+}
+
+h3 {
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  letter-spacing: 2pt;
+  line-height: 32pt;
+  color: #bf3785;
+  margin-top: 17.7vw;
+}
+
+a {
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  color: #f9b4d5;
+  font-size: 16pt;
+}
+
+p {
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  color:white;
+  font-size:12pt;
+  font-weight: lighter;
+}
+
+.textIntro {
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  color:#5d5d5d;
+  font-size:14pt;
+  font-weight: lighter;
+  width: 420px;
+}
+
+a:hover {
+  color: #ade2ff;
+  text-decoration: none;
+}
+
+li {
+  text-align: right;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+img.profilePhoto {
+  border-radius: 50%;
+  margin-top: -70px;
+}
+
+#main {
+  background: linear-gradient(to right, #ac4ef1, #2fbfe0);
+  height: 29vw;
+}
+
+#nav {
+  margin-top: 120px;
+  margin-right: 28px;
+}
+
+#intro {
+  height: 530px;
+}
+
+#projects {
+  height: 132.3vw;
+  background: linear-gradient(to right, #be93c5, #7bc6cc);
+}
+
+#contact {
+  margin-top: 60px;
+  height: 350px
+}
+
+.projectsText {
+  margin-bottom: 38px;
+
+}
+
+.contactText {
+  margin-bottom: 70px;
+}
+
+.social-media {
+  width: 8vw;
+  margin-left: 48px;
+}
+
+.social-media2 {
+  width: 8vw;
+  margin-left: 7.8vw;
+}
+
+.booklet {
+  background-color: #b0def2;
+}
+
+.pins {
+  background-color: #c1d3e4;
+}
+
+.projectImg {
+  height: 44.1vw;
+}
