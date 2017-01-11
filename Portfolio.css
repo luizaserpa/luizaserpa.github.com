@@ -70,6 +70,19 @@ img.profilePhoto {
   margin-top: -70px;
 }
 
+button.btn {
+  border-radius: 28px;
+  width: 15vw;
+  height: 56px;
+  margin-left: 42.5vw;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ac4ef1), to(#2fbfe0));
+  color: white;
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  font-size: 20pt;
+  letter-spacing: 2px;
+}
+
 #main {
   background: linear-gradient(to right, #ac4ef1, #2fbfe0);
   height: 29vw;
@@ -92,6 +105,7 @@ img.profilePhoto {
 #contact {
   margin-top: 60px;
   height: 350px
+
 }
 
 .projectsText {
@@ -104,12 +118,12 @@ img.profilePhoto {
 }
 
 .social-media {
-  width: 8vw;
-  margin-left: 48px;
+  width: 4vw;
+  margin-left: 133px;
 }
 
 .social-media2 {
-  width: 8vw;
+  width: 4vw;
   margin-left: 7.8vw;
 }
 
@@ -123,4 +137,6 @@ img.profilePhoto {
 
 .projectImg {
   height: 44.1vw;
+  overflow: hidden;
+  padding-left: 0px;
 }
