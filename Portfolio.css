@@ -1,6 +1,12 @@
 @media all and (max-device-width: 220px){
 }
 
+body {
+  background-color: #edf5f9;
+}
+
+/* =================NAV================= */
+
 h1 {
   font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
   font-weight: bold;
@@ -20,16 +26,6 @@ h2 {
 
 h2#hello {
   margin-top: 60px;
-}
-
-h3 {
-  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
-  font-weight: bold;
-  font-size: 20pt;
-  letter-spacing: 2pt;
-  line-height: 32pt;
-  color: #bf3785;
-  margin-top: 17.7vw;
 }
 
 a {
@@ -70,19 +66,6 @@ img.profilePhoto {
   margin-top: -70px;
 }
 
-button.btn {
-  border-radius: 28px;
-  width: 15vw;
-  height: 56px;
-  margin-left: 42.5vw;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#ac4ef1), to(#2fbfe0));
-  color: white;
-  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
-  font-weight: lighter;
-  font-size: 20pt;
-  letter-spacing: 2px;
-}
-
 #main {
   background: linear-gradient(to right, #ac4ef1, #2fbfe0);
   height: 29vw;
@@ -97,46 +80,91 @@ button.btn {
   height: 530px;
 }
 
+/* =================PROJECTS================= */
+
 #projects {
-  height: 132.3vw;
-  background: linear-gradient(to right, #be93c5, #7bc6cc);
+  height: 100vw;
+  background-color: white;
+  box-shadow: 0px 0px 25px #999;
 }
 
-#contact {
-  margin-top: 60px;
-  height: 350px
-
+h3 {
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  letter-spacing: 2pt;
+  line-height: 32pt;
+  color: #ef629f;
+  margin-top: 10vw;
 }
 
 .projectsText {
   margin-bottom: 38px;
-
 }
 
-.contactText {
-  margin-bottom: 70px;
+.proj {
+  height: 50vw;
+  margin-right: -30px;
+  width: 51.1%;
 }
 
-.social-media {
-  width: 4vw;
-  margin-left: 133px;
+a.projLink {
+  height: 50vw;
+  margin-right: -30px;
+  width: 95.8%;
+  z-index: 1;
+  position: absolute;;
+  background-color: black;
+  opacity: 0;
 }
 
-.social-media2 {
-  width: 4vw;
-  margin-left: 7.8vw;
+a.projLink:hover {
+  opacity: 0.5;
+}
+
+.projTitle {
+  height: 15vw;
+}
+
+.projectImg {
+  height: 25vw;
+  overflow: hidden;
+  padding-left: 0px;
 }
 
 .booklet {
-  background-color: #b0def2;
+  background-color: #6cf8f8;
 }
 
 .pins {
   background-color: #c1d3e4;
 }
 
-.projectImg {
-  height: 44.1vw;
-  overflow: hidden;
-  padding-left: 0px;
+.logo {
+  margin-top: -58px;
+
+}
+
+/* =================CONTACT================= */
+
+#contact {
+  margin-top: 60px;
+  height: 350px;
+}
+
+.contactText {
+  margin-bottom: 70px;
+}
+
+button.btn {
+  border-radius: 28px;
+  width: 15vw;
+  height: 56px;
+  margin-left: 42.5vw;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ac4ef1), to(#2fbfe0));
+  color: white;
+  font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  font-size: 20pt;
+  letter-spacing: 2px;
 }
