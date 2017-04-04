@@ -221,6 +221,13 @@ body {
 
 /* =================NAV================= */
 
+.language {
+  width: 30px;
+  float: right;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
 h1 {
   font-family: "Lato", CenturyGothic, AppleGothic, sans-serif;
   font-weight: bold;
